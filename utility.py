@@ -1,5 +1,6 @@
 #Generate Captions for a Fresh Image
 
+import tensorflow as tf
 from pickle import load
 from numpy import argmax
 from keras.preprocessing.sequence import pad_sequences
